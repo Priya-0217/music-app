@@ -1,0 +1,55 @@
+{
+  "type": "card",
+  "color": "#F8B6D4",
+  "shadowColor": "#000000",
+  "elevation": 5.0,
+  "margin": {
+    "left": 15,
+    "top": 20,
+    "right": 15,
+    "bottom": 20
+  },
+  "clipBehavior": "antiAlias",
+  "semanticContainer": true,
+  "child": {
+    "type": "container",
+    "width": 250,
+    "height": 300,
+    "decoration": {
+      "borderRadius": 16
+    },
+    "child": {
+      "type": "column",
+      "crossAxisAlignment": "center",
+      "mainAxisAlignment": "center",
+      "children": [
+        {
+          "type": "container",
+          "width": 180,
+          "height": 180,
+          "decoration": {
+            "borderRadius": 40,
+            "image": {
+              "src": "https://s3.getstickerpack.com/storage/uploads/sticker-pack/bubu-dudu-2/sticker_4.gif?8891dae2e1c925381a538ab4b2dba590&d=200x200",
+              "fit": "cover"
+            }
+          }
+        },
+        {
+          "type": "sizedBox",
+          "height": 10
+        },
+        {
+          "type": "text",
+          "data": "I may not have the perfect words, but in every heartbeat, in every quiet thought, it's you — always you",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "w500",
+            "color": "#80010810",
+            "height": 1.3
+          }
+        }
+      ]
+    }
+  }
+}
